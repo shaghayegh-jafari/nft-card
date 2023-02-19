@@ -1,0 +1,84 @@
+#color{
+    margin: 0 auto;
+    background-color:hsl(216, 50%, 16%);
+    width: 300px;
+padding: 20px;
+border-radius: 10px;
+box-shadow: 5px;
+box-shadow: 0 3px 10px rgb(0 0 0 / 0.2)
+}
+@font-face{
+    font-family:'outfit';
+    src: url('./Outfit-VariableFont_wght.ttf');
+}
+body{
+    background-color:  hsl(217, 54%, 11%);
+    font-family: 'outfit';
+}
+
+#color>div.iiimmmggg:hover{
+    /* position: relative; */
+    background-color: hsl(178, 100%, 50%);
+    background-image: url('./images/icon-view.svg');
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    width: 100%;
+    height: 300px;
+}
+#color>div.iiimmmggg>img:hover{
+    opacity: .3;
+}
+#color>div.iiimmmggg>img{
+
+    width: 100%;
+    border-radius: 10px;
+}
+
+h4 {
+    color:hsl(0, 0%,100%) ;
+}
+p {
+    color:  hsl(215, 51%, 70%); font-size: 18px;
+}
+.icon {
+    width: 8px;
+    margin: 0 2px;
+}
+.clock {
+    width: 15px;
+    margin: 0 2px;
+}
+.c {
+    color:aqua ;
+    font-size: smaller;
+    
+}
+.b {
+    color: hsl(215, 51%, 70%);
+}
+.d>img{
+    width: 25px;border: solid 1px #fff; border-radius: 50%;
+
+}
+.d{
+    display: flex;
+}
+
+.d>div>span{
+ font-size: 15px;margin-left: 10px;color: hsl(215, 51%, 70%)
+}
+
+
+hr {
+    border-style:solid;width: 95%;color: hsl(215, 32%, 27%);
+}
+
+a{
+text-decoration: none;color: #fff;
+margin: 0 4px;
+}
+a:hover{
+    color: aqua;
+}
